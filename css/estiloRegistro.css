@@ -1,0 +1,90 @@
+.label1 {
+  font-style: Arial;
+  color: #000000 ;
+  font-size: x-large;
+
+}
+.label2 {
+  font-style: Arial;
+  color: #000000 ;
+  font-size: large;
+
+}
+
+body {
+background: #FFC300;
+}
+
+ul.Proyectos {
+  list-style-type: circle;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+
+.content {
+  height: min-height;
+  background-color: #8a8c8e;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 500%;
+}
+
+.wrapper {
+    overflow:hidden;
+    width:320px;
+}
+.wrapper div {
+    /* cualquier altura mayor que el total de sumar la anchura de las img */
+    width:100px;
+
+    /* para evitar el margen superior de la primera fila */
+    margin-top:-10px;
+}
+img {
+    width:50px;
+    height:75px;
+    float:left;
+    margin:10px 10px 0 0;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #047bf8;
+  color: white;
+}
+
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-float img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+}
+
+.p1 {
+  font-family: "Lucida Handwriting", Times, cursive;
+}
